@@ -1,0 +1,38 @@
+    scrollbar, scrollbar *, scrollcorner {
+	-moz-appearance: none !important;
+	--scrollbar-width: 10px;
+    --scrollbar-height: var(--scrollbar-width);
+}
+
+scrollbar, scrollcorner  {
+    background: transparent !important;
+}
+scrollbar[orient="vertical"] {
+    width: var(--scrollbar-width) !important;
+    min-width: var(--scrollbar-width) !important;
+}
+scrollbar[orient="horizontal"] {
+    height: var(--scrollbar-height) !important;
+    min-height: var(--scrollbar-height) !important;
+}
+
+scrollbar thumb {
+	background: #3a3a3a !important;
+}
+scrollbar thumb:hover,
+scrollbar thumb:active {
+	background: #0a84ff !important;
+}
+
+scrollbar:inactive scrollbarbutton {
+    background-color: #444444 !important;
+}
+scrollbar scrollbarbutton:inactive {
+    background: #3a3a3a !important;
+}
+scrollbar scrollbarbutton:inactive {
+    background: #545454 !important;
+}
+scrollbar scrollbarbutton {
+    display: none !important;
+}
