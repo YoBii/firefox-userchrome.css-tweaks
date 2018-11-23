@@ -36,6 +36,31 @@ max-width: none !important;
 min-width: 0px !important; 
 }
 
+/* auto minimize sidebar and expand on mouseover */
+
+:root {
+	--thin-tab-width: 192px;
+	--wide-tab-width: 420px;
+}
+#sidebar-box:not([sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]) {
+	min-width: var(--wide-tab-width) !important;
+	max-width: none !important;
+}
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] {
+	position: relative !important;
+	transition: all 600ms !important;
+	min-width: var(--thin-tab-width) !important;
+	max-width: var(--thin-tab-width) !important;
+}
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover {
+	transition: all 300ms !important;
+	min-width: var(--wide-tab-width) !important;
+	max-width: var(--wide-tab-width) !important;
+
+	/* Negative right-margin to keep page from being pushed to the side. */
+	margin-right: calc((var(--wide-tab-width) - var(--thin-tab-width)) * -1) !important;
+}
+
 /*
  * Remove the "Sign in to sync" from top of photon hamburger menu.
  *
