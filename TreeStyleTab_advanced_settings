@@ -1,0 +1,15 @@
+/* Show title of unread tabs with yellow title */
+
+.tab.unread .label {
+  color: #eedd00;
+}
+
+.tab.discarded .label{
+  color: grey;
+}
+
+/* Add private browsing indicator per tab */
+
+.tab.private-browsing .label:before {
+  content: ">_ ";
+}
