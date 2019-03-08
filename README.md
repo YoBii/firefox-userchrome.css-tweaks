@@ -5,7 +5,7 @@ My personal collection of tweaks for use with dark skin and TST (Tree Style Tab)
 
 ## TreeStyle Tab
 
-* Enter settings via **Options -> Extensions**
+* Enter settings via **Options** -> **Extensions**
 
 * Copy and paste the contents of `TreeStyleTab_advanced_settings` into the text field in the **Advanced section**
 * Select **Plain dark** theme for the extension
