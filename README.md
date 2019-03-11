@@ -15,12 +15,6 @@ My personal collection of tweaks for use with dark skin and TST (Tree Style Tab)
   * **Help** -> **Troubleshooting Information** -> **Open folder**
   * Drop the chrome folder from the repo into it
 
-## uBlock Origin
-
-* Install
-* ???
-* Profit!
-
 ## Firefox Options
 
 * Choose the dark theme
