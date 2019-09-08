@@ -1,6 +1,6 @@
 scrollbar, scrollbar *, scrollcorner {
 	-moz-appearance: none !important;
-	--scrollbar-width: 10px;
+	--scrollbar-width: 16px;
     --scrollbar-height: var(--scrollbar-width);
 }
 
@@ -31,7 +31,7 @@ scrollbar scrollbarbutton:inactive {
     background: #3a3a3a !important;
 }
 scrollbar scrollbarbutton:inactive {
-    background: #0a84ff !important;
+    background: #545454 !important;
 }
 scrollbar scrollbarbutton {
     display: none !important;
