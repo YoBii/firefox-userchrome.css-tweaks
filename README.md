@@ -21,6 +21,6 @@ My personal collection of tweaks for use with dark skin and TST (Tree Style Tab)
 * Open context menu of the top bar (near adress bar)
   * Activate **Menu bar**
 * Check **Restore previous session**
-* Open `about:cofig`
+* Open `about:config`
   * Search for this string: `toolkit.legacyUserProfileCustomizations.stylesheets`
   * Set to **true**
